@@ -52,7 +52,7 @@ task.model.ts
 
 Clonar el repositorio:
 
-git clone https://github.com/gemamanjondones/AngularLabFinal.git
+git clone https://github.com/gema-manjon/AngularLabFinal.git
 
 # Entrar en el proyecto:
 
