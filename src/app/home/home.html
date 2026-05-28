@@ -1,0 +1,32 @@
+<div class="app-container">
+    <section class="example-section">
+        <h3> Home Task </h3>
+        <div class="home-header">
+            <td style="width: 10px;">
+                <a>
+                    <img src="/clipboard_notes_list_tasks_icon_191193.svg" alt="Home Image" width="150" height=" 100">
+                </a>
+            </td>
+
+            <td style="width: 90%; font-size: 24px;">
+                <p>Bienvenido a tu aplicación Angular. Aquí puedes gestionar tus tareas diarias de manera eficiente y
+                    organizada. Utiliza el formulario a continuación para agregar nuevas tareas a tu lista y mantener un
+                    seguimiento de las no finalizadas.</p>
+            </td>
+        </div>
+        <span>
+        <div style="padding-top: 30px; alignment-baseline: central;">
+            <!-- Rem GMD 18/05/2026-->
+            <!-- La imagen se recupera del directorio public del proyecto y no necesita la ruta para encontrarla -->
+           
+            <!-- se visualiza la lista de tareas task-list y desaparece el botón de inicio -->
+            <button  *ngIf="!pulsado && isHomeRoute()" class="btn btn-primary btn-right pulse-effect " (click)="goToTaskListBase()">
+                Comenzar
+            </button>
+            <!-- <button class="btn btn-primary pulse-effect" onclick="window.location.href='../features/task-list-base/task-list-base'">Ir a Tareas</button> -->
+            <!-- <button class="btn btn-primary pulse-effect" (click)="navigate('task-list-base')">ir a tareas </button> -->
+        </div>
+        </span>
+            
+    </section>
+</div>

@@ -1,0 +1,14 @@
+<h2>Edit Task</h2>
+
+<div *ngIf="task">
+
+<input [(ngModel)]="task.title">
+
+<label>
+<input type="checkbox" [(ngModel)]="task.completed">
+Completed
+</label>
+
+<button (click)="save()">Save</button>
+
+</div><p>edit-task works!</p>

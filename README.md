@@ -1,4 +1,4 @@
-# AngularLabFinal
+﻿# AngularLabFinal
 Laboratorio Angular curso basico
 
 # Angular Task Manager
@@ -43,9 +43,6 @@ task.service.ts
 models/
 task.model.ts
 
-
-
-
 ---
 
 # Instalación
@@ -64,7 +61,7 @@ npm install
 
 # Ejecutar la aplicación
 
-ng serve
+gn serve
 
 # Abrir en el navegador:
 

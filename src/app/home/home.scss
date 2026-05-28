@@ -1,0 +1,124 @@
+.home-header {
+    flex: 1;
+    box-shadow: cadetblue;
+    background-color: rgb(231, 150, 116);
+    font-size: 30px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    padding-left: 40px;
+
+}
+
+.example-section h3 {
+    color: #dd0031;
+    margin-top: 0;
+    border-bottom: 2px solid #dd0031;
+    font-size: 20px;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.image-container img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 11500;
+  transition: all 0.3s ease;
+
+  &:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  &.btn-primary1 {
+    background: #0095ff;
+    color: rgb(255, 255, 255);
+    height:60px;
+  }
+
+   &.btn-primary {
+    background: linear-gradient(
+          45deg,
+          #4ecdc4,
+          #ff6b6b,
+          #cebb96
+        ) !important;
+        color: white !important;
+      }
+    
+  
+  &.btn-secondary {
+    background: #6c757d;
+    color: white;
+  }
+
+  &.btn-info {
+    background: #17a2b8;
+    color: white;
+  }
+
+  &.btn-warning {
+    background: #ffc107;
+    color: #212529;
+  }
+
+  &.btn-right{
+    display: block;
+    margin-right:auto;
+    margin-left: auto;
+  }
+}
+
+.step-control {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+
+  label {
+    font-weight: 500;
+  }
+
+  .form-control {
+    width: 100px;
+    padding: 0.5rem;
+    border: 2px solid #e9ecef;
+    border-radius: 4px;
+    text-align: center;
+  }
+}
+.pulse-effect {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #007bff; /* Color base del botón */
+  transition: transform 0.3s ease-in-out; /* Transición suave del efecto de pulsación */
+}
+
+.pulse-effect:hover {
+  background-color: #0056b3; /* Cambia el color al pasar el cursor sobre el botón */
+}
+.pulse-effect:active {
+  transform: scale(0.9); /* Reduce ligeramente el tamaño del botón cuando se hace clic */
+}
+

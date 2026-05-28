@@ -1,0 +1,98 @@
+ .demo-card {
+        width: 90%;
+        margin: 1rem 0;
+        padding: 1rem;
+        border: 2 solid #646161;
+        border-radius: 8px;
+        background-color: rgb(229, 217, 199);
+        box-shadow: #333 2px 2px 5px;
+        transition: all 0.3s ease;
+      }
+
+      .demo-card h4 {
+        margin-top: 0;
+        color: #333;
+      }
+
+      .task-table {
+        width: 100%;
+        border-collapse: collapse;
+        border-color:black;
+      }
+
+      .task-table tr {
+        vertical-align: top;
+        
+      }
+
+      .task-main-cell {
+        padding-right: 1rem;
+      }
+
+      .task-actions-cell {
+        width: 180px;
+      }
+
+      .task-user-cell {
+        text-align: right;
+        padding-bottom: 0.5rem;
+      }
+
+      .task-user {
+        margin-bottom: 0.1rem;
+      }
+
+      .task-content {
+        margin-bottom: 1rem;
+      }
+
+      .task-filters {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+      }
+
+      .task-filters label {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9rem;
+      }
+
+      .task-filters input {
+        margin-top: 0.25rem;
+        padding: 0.4rem 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      .task-img {
+        width: 64px;
+        height: 64px;
+        object-fit: cover;
+        float: left;
+        margin-right: 1rem;
+        border-radius: 4px;
+      }
+
+      .task-actions {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .task-description {
+        color: #333;
+      }
+
+.control-flow-examples {
+        padding: 1rem;
+      }
+
+      .example-section {
+        margin: 2rem 0;
+        padding: 1.5rem;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: white;
+      }
